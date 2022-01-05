@@ -4,19 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Freelancer - Start Bootstrap Theme</title>
+    <meta name="author" content="Blossm LLC">
+    <title>Blossm - Social Plant Marketplace</title>
     <!-- Font Awesome icons (free version)-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
             crossorigin="anonymous"></script>
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet">
     <!-- Fonts CSS-->
     <link rel="stylesheet" href="css/heading.css">
     <link rel="stylesheet" href="css/body.css">
+    <style>
+        .blossm_primary_color {
+            background-color: #034638;
+        }
+
+        .blossm_secondary_color {
+            background-color: #079365;
+        }
+
+        .thumbnail_img {
+            max-width: 300px;
+
+        }
+
+    </style>
 </head>
 <body id="page-top">
-<nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+<nav class="navbar navbar-expand-lg blossm_primary_color fixed-top shadow-lg" id="mainNav">
     <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top"><img id="brandImage"
                                                                                            src="assets/img/logo.png"
                                                                                            alt=""></a>
@@ -26,10 +41,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                                                     href="#portfolio">HOME</a>
+                                                     href="#home">HOME</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-                                                     href="#about">ABOUT US</a>
+                                                     href="#about">OUR MISSION</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
                                                      href="#contact">CONTACT</a>
@@ -38,332 +53,119 @@
         </div>
     </div>
 </nav>
-<header class="masthead bg-primary text-white text-center">
-    <div class="imageWrapper">
-        <div class="headerBackground">
-            <div class="container d-flex align-items-center flex-row">
-                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/black.png" alt="">
-                <!-- Masthead Heading-->
-                <div class="container d-flex align-items-center flex-column">
-                        <div class="appIconShadow">
-                            <svg width="0" height="0">
-                                <defs>
-                                    <clipPath id="shape120">
-                                        <path class="cls-1"
-                                              d="M6821,495.533v-4.281c0-1.2-.04-2.4-0.04-3.642a57.7,57.7,0,0,0-.68-7.882,26.144,26.144,0,0,0-2.48-7.483,25.115,25.115,0,0,0-11.04-11.044,26.118,26.118,0,0,0-7.49-2.481,47.28,47.28,0,0,0-7.88-.68c-1.2-.04-2.4-0.04-3.64-0.04h-53.5c-1.2,0-2.4.04-3.64,0.04a57.813,57.813,0,0,0-7.88.68,26.323,26.323,0,0,0-7.49,2.481,25.115,25.115,0,0,0-11.04,11.044,26.144,26.144,0,0,0-2.48,7.483,47.313,47.313,0,0,0-.68,7.882c-0.04,1.2-.04,2.4-0.04,3.642v53.5c0,1.2.04,2.4,0.04,3.641a57.7,57.7,0,0,0,.68,7.883,26.137,26.137,0,0,0,2.48,7.482,25.115,25.115,0,0,0,11.04,11.044,26.261,26.261,0,0,0,7.49,2.481,47.28,47.28,0,0,0,7.88.68c1.2,0.04,2.4.04,3.64,0.04h53.5c1.2,0,2.4-.04,3.64-0.04a57.654,57.654,0,0,0,7.88-.68,26.057,26.057,0,0,0,7.49-2.481,25.115,25.115,0,0,0,11.04-11.044,26.137,26.137,0,0,0,2.48-7.482,47.316,47.316,0,0,0,.68-7.883c0.04-1.2.04-2.4,0.04-3.641V495.533h0Z"
-                                              transform="translate(-6701 -458)" filter="url(#f1)"/>
-                                    </clipPath>
-                                </defs>
-                            </svg>
-                            <img class="appIconLarge" src="{{ site.app_icon }}" alt="Blossm"/>
-                        </div>
-                    <div class="divider-custom divider-light">
-                        <div class="divider-custom-line"></div>
-                    </div>
-                    <h1 class="masthead-subheading ">Social Plant Marketplace</h1>
-                </div>
+<!--Top Page-->
+<header class="masthead blossm_secondary_color text-center text-white rounded-bottom"
+        style="
+        /*background-image: url('https://drive.google.com/uc?export=view&id=1M03DMN0Cadbd22I7c93CW7k8GGBvTwyC');*/
+        background-size: cover;
+        background-repeat: no-repeat;">
+    <div class="container d-flex align-items-center flex-row">
+        <!-- Masthead Avatar Image-->
+        <img class="masthead-avatar" src="assets/img/ios-phone-top.png" width="120" alt="">
+        <!-- Masthead Heading-->
+        <div class="container d-flex align-items-center flex-column" style="max-width: 500px">
 
-                <!-- Icon Divider-->
-                <!--        <div class="divider-custom divider-light">-->
-                <!--            <div class="divider-custom-line"></div>-->
-                <!--            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>-->
-                <!--            <div class="divider-custom-line"></div>-->
-                <!--        </div>-->
-                <!-- Masthead Subheading-->
-                <!--        <p class="pre-wrap masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>-->
+            <div class="col-sm pt-2">
+                <img class="img shadow-lg" style="border-radius: 1.25rem" width="120" height="120"
+                     src="{{ site.app_icon }}" alt="Blossm"/>
+            </div>
+            <h1 class="masthead-heading pt-4">Blossm</h1>
+
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+            </div>
+            <h1 class="masthead-subheading ">Social Plant Marketplace App</h1>
+            <div class="row my-3 pl-2 align-items-center">
+                <a class="cols pr-2 shadow-lg" href="{{site.appstore_link}}" aria-label="Download on the App Store.">
+                    <img class="appStore"
+                         src="/assets/img/appstore.png" width="190" height="64" alt="iOS">
+                </a>
+                <a class="cols px-lg-2 my-1 shadow-lg" href="{{site.playstore_link}}"
+                   aria-label="Get it on Google Play.">
+                    <img class="playStore"
+                         src="/assets/img/playstore.png" width="190" height="64"
+                         alt="Android">
+                </a>
             </div>
         </div>
     </div>
 </header>
-<section class="page-section portfolio" id="portfolio">
-    <div class="container">
-        <!-- Portfolio Section Heading-->
-        <div class="text-center">
-            <h2 class="page-section-heading text-secondary mb-0 d-inline-block">Browse Plants</h2>
-        </div>
-        <!-- Icon Divider-->
-        <div class="divider-custom">
-            <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-            <div class="divider-custom-line"></div>
-        </div>
-        <!-- Portfolio Grid Items-->
-        <div class="row justify-content-center">
-            <!-- Portfolio Items-->
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="Log Cabin"/>
-                </div>
+<!-- Product section-->
+<section class="py-2 bg-light " id="home">
+    <div class="text-center mt-5">
+        <h2 class="page-section-heading text-secondary d-inline-block mb-0">USING THE APP</h2>
+    </div>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-seedling"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <div class="container px-4 px-md-5 my-5 shadow-lg" style="border-radius: 1.25rem">
+        <div class="row ml-lg-5 gx-4 gx-lg-5 align-items-center">
+            <div class="col-sm-4"><img class="card-img-top" src="assets/img/ios-phone-top.png" alt="..."/></div>
+            <div class="col-sm-4" style="border-radius: 1.25rem">
+                <h1 class="display-5 fw-bolder">Browse Plants</h1>
+                <p class="lead">Search through the market to browse plants and find ones you like!</p>
             </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/img/portfolio/cake.png" alt="Tasty Cake"/>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/img/portfolio/circus.png" alt="Circus Tent"/>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/img/portfolio/game.png" alt="Controller"/>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal4">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 mb-5">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal5">
-                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                        <div class="portfolio-item-caption-content text-center text-white"><i
-                                class="fas fa-plus fa-3x"></i></div>
-                    </div>
-                    <img class="img-fluid" src="assets/img/portfolio/submarine.png" alt="Submarine"/>
-                </div>
+            <div class="col-sm-4" style="opacity: 50%">
+                <a href="https://www.freeiconspng.com/img/34791" title="Image from freeiconspng.com"><img
+                        src="https://www.freeiconspng.com/uploads/plant-icon-26.png" width="200"
+                        alt="Plant Save Icon Format"/>
+                </a>
             </div>
         </div>
     </div>
 </section>
-<!-- Portfolio Modal-->
-<div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog"
-     aria-labelledby="#portfolioModal0Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
-                    class="fas fa-times"></i></span></button>
-            <div class="modal-body text-center">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <!-- Portfolio Modal - Title-->
-                            <h2 class="portfolio-modal-title text-secondary mb-0">Log Cabin</h2>
-                            <!-- Icon Divider-->
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
-                                                                src="assets/img/portfolio/cabin.png" alt="Log Cabin"/>
-                            <!-- Portfolio Modal - Text-->
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
-                                assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit
-                                asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i
-                                    class="fas fa-times fa-fw"></i>Close Window
-                            </button>
-                        </div>
-                    </div>
-                </div>
+<section class="py-2 bg-light">
+    <div class="container px-4 px-md-5 my-5 bg-gray-light shadow-lg" style="border-radius: 1.25rem">
+        <div class="row ml-lg-5 gx-4 gx-lg-5 align-items-center">
+            <div class="col-sm-4" style="opacity: 50%">
+                <a href="https://www.freeiconspng.com/img/2789" title="Image from freeiconspng.com"><img
+                        src="https://www.freeiconspng.com/uploads/agriculture-business-start-farm-farming-idea-plant-startup-icon-13.png"
+                        width="200" alt="Agriculture Business Start Farm Farming Idea Plant Startup icon"/></a>
+            </div>
+            <div class="col-sm-4 ">
+                <h1 class="display-5 fw-bolder">Buy, Sell or Swap</h1>
+                <p class="lead">Find new plants to buy or sell and swap plants of your own on our market.</p>
+            </div>
+            <div class="col-sm-4 flex-column">
+                <img class="card-img thumbnail_img" src="assets/img/ios-item.jpeg" alt="..."/>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="py-2 bg-light">
+    <div class="container px-4 px-md-5 my-5 shadow-lg" style="border-radius: 1.25rem">
+        <div class="row ml-lg-5 gx-4 gx-lg-5 align-items-center">
+            <div class="col-sm-4 align-items-center">
+                <img class="card-img-top thumbnail_img" src="assets/img/ios-community.jpeg" alt="..."/>
+            </div>
+            <div class="col-sm-4">
+                <h1 class="display-5 fw-bolder">Socialize in our Community Board</h1>
+                <p class="lead">Read users posts about their favourite plant babies and post about yours!</p>
+            </div>
+            <div class="col-sm-4" style="opacity: 40%">
+                <a href="https://www.freeiconspng.com/img/29126" title="Image from freeiconspng.com"><img
+                        src="https://www.freeiconspng.com/uploads/garden-community-icon-12.png" width="200"
+                        alt="garden community icon"/></a>
             </div>
         </div>
     </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
-     aria-labelledby="#portfolioModal1Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
-                    class="fas fa-times"></i></span></button>
-            <div class="modal-body text-center">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <!-- Portfolio Modal - Title-->
-                            <h2 class="portfolio-modal-title text-secondary mb-0">Tasty Cake</h2>
-                            <!-- Icon Divider-->
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
-                                                                src="assets/img/portfolio/cake.png" alt="Tasty Cake"/>
-                            <!-- Portfolio Modal - Text-->
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
-                                assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit
-                                asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i
-                                    class="fas fa-times fa-fw"></i>Close Window
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
-     aria-labelledby="#portfolioModal2Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
-                    class="fas fa-times"></i></span></button>
-            <div class="modal-body text-center">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <!-- Portfolio Modal - Title-->
-                            <h2 class="portfolio-modal-title text-secondary mb-0">Circus Tent</h2>
-                            <!-- Icon Divider-->
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
-                                                                src="assets/img/portfolio/circus.png"
-                                                                alt="Circus Tent"/>
-                            <!-- Portfolio Modal - Text-->
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
-                                assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit
-                                asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i
-                                    class="fas fa-times fa-fw"></i>Close Window
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog"
-     aria-labelledby="#portfolioModal3Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
-                    class="fas fa-times"></i></span></button>
-            <div class="modal-body text-center">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <!-- Portfolio Modal - Title-->
-                            <h2 class="portfolio-modal-title text-secondary mb-0">Controller</h2>
-                            <!-- Icon Divider-->
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
-                                                                src="assets/img/portfolio/game.png" alt="Controller"/>
-                            <!-- Portfolio Modal - Text-->
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
-                                assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit
-                                asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i
-                                    class="fas fa-times fa-fw"></i>Close Window
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog"
-     aria-labelledby="#portfolioModal4Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
-                    class="fas fa-times"></i></span></button>
-            <div class="modal-body text-center">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <!-- Portfolio Modal - Title-->
-                            <h2 class="portfolio-modal-title text-secondary mb-0">Locked Safe</h2>
-                            <!-- Icon Divider-->
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
-                                                                src="assets/img/portfolio/safe.png" alt="Locked Safe"/>
-                            <!-- Portfolio Modal - Text-->
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
-                                assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit
-                                asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i
-                                    class="fas fa-times fa-fw"></i>Close Window
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog"
-     aria-labelledby="#portfolioModal5Label" aria-hidden="true">
-    <div class="modal-dialog modal-xl" role="document">
-        <div class="modal-content">
-            <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
-                    class="fas fa-times"></i></span></button>
-            <div class="modal-body text-center">
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <!-- Portfolio Modal - Title-->
-                            <h2 class="portfolio-modal-title text-secondary mb-0">Submarine</h2>
-                            <!-- Icon Divider-->
-                            <div class="divider-custom">
-                                <div class="divider-custom-line"></div>
-                                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                                <div class="divider-custom-line"></div>
-                            </div>
-                            <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5"
-                                                                src="assets/img/portfolio/submarine.png"
-                                                                alt="Submarine"/>
-                            <!-- Portfolio Modal - Text-->
-                            <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque
-                                assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit
-                                asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
-                            <button class="btn btn-primary" href="#" data-dismiss="modal"><i
-                                    class="fas fa-times fa-fw"></i>Close Window
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<section class="page-section bg-primary text-white mb-0" id="about">
+</section>
+
+<!-- OUR MISSION -->
+<section class="page-section blossm_secondary_color text-white mb-0 " id="about">
     <div class="container">
         <!-- About Section Heading-->
         <div class="text-center">
-            <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
+            <h2 class="page-section-heading d-inline-block text-white">OUR MISSION</h2>
         </div>
         <!-- Icon Divider-->
         <div class="divider-custom divider-light">
             <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-icon"><i class="fas fa-seedling"></i></div>
             <div class="divider-custom-line"></div>
         </div>
         <!-- About Section Content-->
@@ -382,6 +184,7 @@
         </div>
     </div>
 </section>
+<!--Contact Section-->
 <section class="page-section" id="contact">
     <div class="container">
         <!-- Contact Section Heading-->
@@ -391,23 +194,23 @@
         <!-- Icon Divider-->
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
-            <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+            <div class="divider-custom-icon"><i class="fas fa-seedling"></i></div>
             <div class="divider-custom-line"></div>
         </div>
         <!-- Contact Section Content-->
         <div class="row justify-content-center">
             <div class="col-lg-4">
                 <div class="d-flex flex-column align-items-center">
-                    <div class="icon-contact mb-3"><i class="fas fa-mobile-alt"></i></div>
+                    <div class="icon-contact mb-3 blossm_secondary_color"><i class="fas fa-mobile-alt"></i></div>
                     <div class="text-muted">Phone</div>
                     <div class="lead font-weight-bold">(555) 555-5555</div>
                 </div>
             </div>
             <div class="col-lg-4">
                 <div class="d-flex flex-column align-items-center">
-                    <div class="icon-contact mb-3"><i class="far fa-envelope"></i></div>
+                    <div class="icon-contact mb-3 blossm_secondary_color"><i class="far fa-envelope"></i></div>
                     <div class="text-muted">Email</div>
-                    <a class="lead font-weight-bold" href="mailto:name@example.com">name@example.com</a>
+                    <a class="lead font-weight-bold" href="mailto:name@example.com">info@blossm.garden</a>
                 </div>
             </div>
         </div>
@@ -419,33 +222,31 @@
             <!-- Footer Location-->
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <h4 class="mb-4">LOCATION</h4>
-                <p class="pre-wrap lead mb-0">2215 John Daniel Drive
-                    Clark, MO 65243</p>
+                <p class="pre-wrap lead mb-0">      Ocean Beach
+                    San Diego, CA 92107</p>
             </div>
             <!-- Footer Social Icons-->
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1"
-                                                       href="https://www.facebook.com/StartBootstrap"><i
+                                                       href="https://facebook.com/{{ site.facebook_username }}"><i
                     class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1"
-                                                               href="https://www.twitter.com/sbootstrap"><i
-                    class="fab fa-fw fa-twitter"></i></a><a class="btn btn-outline-light btn-social mx-1"
-                                                            href="https://www.linkedin.com/in/startbootstrap"><i
-                    class="fab fa-fw fa-linkedin-in"></i></a><a class="btn btn-outline-light btn-social mx-1"
-                                                                href="https://www.dribble.com/startbootstrap"><i
-                    class="fab fa-fw fa-dribbble"></i></a>
+                                                               href="https://www.instagram.com/{{ site.instagram_username }}"><i
+                    class="fab fa-fw fa-instagram"></i></a><a class="btn btn-outline-light btn-social mx-1"
+                                                              href="https://www.tiktok.com/@{{ site.tiktok_username }}"><i
+                    class="fab fa-tiktok"></i></a>
             </div>
             <!-- Footer About Text-->
             <div class="col-lg-4">
-                <h4 class="mb-4">ABOUT FREELANCER</h4>
-                <p class="pre-wrap lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by Start
-                    Bootstrap</p>
+                <h4 class="mb-4">ABOUT BLOSSM</h4>
+                <p class="pre-wrap lead mb-0">Blossm is a free to use app, dedicated to growing the plant community by
+                    plant sharing</p>
             </div>
         </div>
     </div>
 </footer>
 <!-- Copyright Section-->
 <section class="copyright py-4 text-center text-white">
-    <div class="container"><small class="pre-wrap">Copyright © Your Website 2020</small></div>
+    <div class="container"><small class="pre-wrap">Copyright © blossm.garden 2021</small></div>
 </section>
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes)-->
 <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded"

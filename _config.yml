@@ -1,6 +1,6 @@
 #page title
-page_title: "Plant Swap - Blossm"                                   # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
-page_desc: "Plant Swap App"
+page_title: "Blossm - Social Plant Marketplace"                                   # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_desc: "Social Plant Marketplace"
 
 # App Info
 ios_app_id: 1503863325                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -10,11 +10,17 @@ playstore_link: "https://play.google.com/store/apps/details?id=garden.blossm"
 presskit_download_link:                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
 # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
 
-app_icon: /assets/img/app-icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_icon: /assets/img/ios_app_icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_logo: /assets/img/logo.png
 app_name: Blossm - Plant Swap                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price:                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_description: "We want to revolutionize the way you connect to people in the community through a shared passion of plants. Our team of quirky green-thumbed enthusiasts have dedicated an immense amount of time and effort to create a way to do this. We hope you will fulfill all your horticultural desires and make this world a greener place!"
+
+email_address: info@blossm.garden
+facebook_username: blossmplantswap
+instagram_username: blossmplantswap
+tiktok_username: blossmplantswap
+
 
 enable_smart_app_banner: true
 baseurl: "" # the subpath of your site, e.g. /blog
