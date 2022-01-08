@@ -1,6 +1,6 @@
 #page title
-page_title: "Blossm - Social Plant Marketplace"                                   # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
-page_desc: "Social Plant Marketplace"
+page_title: "Social Plant Market - Blossm"                                   # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_desc: "Social Plant Marketplace App"
 
 # App Info
 ios_app_id: 1503863325                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
@@ -12,22 +12,77 @@ presskit_download_link:                                          # Enter a link 
 
 app_icon: /assets/img/ios_app_icon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_logo: /assets/img/logo.png
-app_name: Blossm - Plant Swap                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name: Blossm - Social Plant Marketplace                   # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_name_short: Blossm
 app_price:                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description: "We want to revolutionize the way you connect to people in the community through a shared passion of plants. Our team of quirky green-thumbed enthusiasts have dedicated an immense amount of time and effort to create a way to do this. We hope you will fulfill all your horticultural desires and make this world a greener place!"
+app_description: Social Plant Marketplace App
+
+enable_smart_app_banner: true                                      # Set to true to show a smart app banner at top of page on mobile devices.
+
 
 email_address: info@blossm.garden
 facebook_username: blossmplantswap
 instagram_username: blossmplantswap
 tiktok_username: blossmplantswap
 
+# Site Data
+browse_plants: Browse Plants
+browse_plants_description: Search through the market to browse plants and find
+  ones you like!
+buy_sell_swap: Buy, Sell or Swap
+buy_sell_swap_description: Find new plants to buy or sell and swap plants of your
+  own on our market.
+socialize: Socialize With Our Community
+socialize_description: Read users posts about their favourite plant babies
+  and post about yours!
+town: Ocean Beach
+city: San Diego, CA 92107
+team_description: One of the most rewarding experiences is using Blossm ourselves & meeting so many awesome people!
+  Blossm was born from a desire to meet like-minded folk who enjoy growing their own food, treating their plants like their babies,
+  nerding out on optimal propagation techniques & just wanting to share the knowledge they've learned over the years.
+mission: We want to revolutionize the way you connect to people in the community through
+  a shared passion of plants. Our team of quirky green-thumbed enthusiasts have dedicated an immense
+  amount of time and effort to create a way to do this. We hope you will fulfill all your
+  horticultural desires and make this world a greener place!
 
-enable_smart_app_banner: true
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Theme Settings
+topbar_color: "#000000"
+topbar_transparency: 0.0
+topbar_title_color: "#ffffff"
+
+cover_image:                    # Replace with alternative image path or image URL.
+cover_overlay_color: "#079365"
+cover_overlay_transparency: 1
+
+device_color: black
+device_android_color: android-black    # Set to: blue, black, yellow, coral or white.
+
+body_background_color: "#ffffff"
+
+link_color: "#1d63ea"
+
+app_title_color: "#ffffff"
+app_price_color: "#ffffff"
+app_description_color: "#ffffff"
+
+feature_title_color: "#000000"
+feature_text_color: "#666666"
+
+feature_icons_foreground_color: "#079365"
+feature_icons_background_color: "#e6e6e6"
+
+social_icons_foreground_color: "#ffffff"
+social_icons_background_color: "#000000"
+
+footer_text_color: "#666666"
+
+
 port: 8080
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
 
 # Build settings
 #theme: minima

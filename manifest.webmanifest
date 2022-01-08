@@ -1,0 +1,9 @@
+{
+  "name": "Blossm - Social Plant Market",
+  "short_name": "Blossm",
+  "prefer_related_applications": true,
+  "related_applications": [{
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=garden.blossm"
+    }]
+}

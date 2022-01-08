@@ -3,3 +3,62 @@
     src: url('/assets/font/SF-Pro-Rounded-Medium.ttf')  format('truetype');
     font-display: swap;
 }
+body, h1, h2, h3, h4, h5, h6, li {
+    font-family: 'MyWebFont';
+}
+.features-icons {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.features-icons .features-icons-item {
+    max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem;
+}
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem;
+}
+@media (max-width: 768px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+@media (min-width: 768px) {
+    .hidden-web {
+        display: none;
+    }
+}
+.team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+}
+.team-member img {
+    width: 14rem;
+    height: 14rem;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .footerLinks {
+        flex-direction: column;
+    }
+
+    .footerLinks a {
+        justify-content: stretch;
+        margin-right: 0px;
+        margin-top: 20px;
+    }
+
+    .footerLinks a:first-child {
+        margin-top: 0px;
+    }
+
+}
+
+

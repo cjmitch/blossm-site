@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: page-links
 title: "Terms Of Service - Blossm"
 link_title: "Terms Of Service"
 desc: Blossm's terms of service
 include_in_header: false
 include_in_footer: true
+legal: true
 ---
 
 **Last updated**  

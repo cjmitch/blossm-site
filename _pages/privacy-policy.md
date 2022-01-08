@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: page-links
 title: "Privacy Policy - Blossm"
 link_title: "Privacy Policy"
 desc: Blossm's privacy policy
 include_in_header: false
 include_in_footer: true
+legal: true
 ---
 
 **Last updated**  

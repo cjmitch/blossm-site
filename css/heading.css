@@ -1,5 +1,14 @@
 @font-face {
-    font-family: 'MyWebFont';
+    font-family: 'BlossmFont';
     src: url('/assets/font/SF-Pro-Rounded-Medium.ttf')  format('truetype');
     font-display: swap;
+}
+
+
+.blossm_primary_color {
+    background-color: #034638;
+}
+
+.blossm_secondary_color {
+    background-color: #079365;
 }

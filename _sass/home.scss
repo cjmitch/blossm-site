@@ -1,0 +1,21 @@
+
+
+@media only screen and (max-width: 992px) {
+  .logo {
+    height: 0px;
+    margin-right: 0px;
+  }
+
+  .scroll {
+    height: 0px;
+    margin-right: 0px;
+  }
+
+  .logo > p {
+    display: none;
+  }
+
+  header {
+    display: none;
+  }
+}

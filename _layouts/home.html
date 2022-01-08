@@ -1,0 +1,160 @@
+---
+layout: default
+---
+
+<!--Top Page-->
+<header class="masthead blossm_secondary_color text-center text-white rounded-bottom"
+        style="
+        /*background-image: url('https://drive.google.com/uc?export=view&id=1M03DMN0Cadbd22I7c93CW7k8GGBvTwyC');*/
+        background-size: cover;
+        background-repeat: no-repeat;">
+    <div class="container d-flex align-items-center flex-row">
+        <!-- Masthead Avatar Image-->
+        <img class="masthead-avatar hidden-mobile" src="assets/img/ios-phone-top.png" width="120" alt="">
+        <!-- Masthead Heading-->
+        <div class="container d-flex align-items-center flex-column" style="max-width: 500px">
+
+            <div class="col-sm pt-2">
+                <img class="img shadow-lg" style="border-radius: 1.25rem" width="120" height="120"
+                     src="{{ site.app_icon }}" alt="Blossm"/>
+            </div>
+            <h1 class="masthead-heading pt-4">{{site.app_name_short}}</h1>
+
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+            </div>
+            <h1 class="masthead-subheading">{{site.app_description}}</h1>
+            <div class="row my-3 pl-2 align-items-center">
+                <a class="cols pr-2 shadow-lg" href="{{site.appstore_link}}" aria-label="Download on the App Store.">
+                    <img class="appStore"
+                         src="/assets/img/appstore.png" width="190" height="64" alt="iOS">
+                </a>
+                <a class="cols px-lg-2 my-1 shadow-lg" href="{{site.playstore_link}}"
+                   aria-label="Get it on Google Play.">
+                    <img class="playStore"
+                         src="/assets/img/playstore.png" width="220" height="64"
+                         alt="Android">
+                </a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- Icons Grid-->
+<section class="features-icons bg-light text-center hidden-web">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex"><i class="bi-search m-auto text-primary"></i></div>
+                    <h3>{{site.browse_plants}}</h3>
+                    <p class="lead mb-0">{{site.browse_plants_description}}</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex"><i class="bi-currency-dollar m-auto text-primary"></i></div>
+                    <h3>{{site.buy_sell_swap}}</h3>
+                    <p class="lead mb-0">{{site.buy_sell_swap_description}}</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                    <div class="features-icons-icon d-flex"><i class="bi-people-fill m-auto text-primary"></i></div>
+                    <h3>{{site.socialize}}</h3>
+                    <p class="lead mb-0">{{site.socialize_description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Product section-->
+<section class="py-2 bg-light hidden-mobile" id="home">
+    <div class="text-center mt-5">
+        <h2 class="page-section-heading text-secondary d-inline-block mb-0">HOW IT WORKS</h2>
+    </div>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-seedling"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <div class="container px-4 px-md-5 my-5 shadow-lg" style="border-radius: 1.25rem">
+        <div class="row ml-lg-5 gx-4 gx-lg-5 align-items-center flex-row">
+            <div class="col-sm-4">
+                <img class="card-img-top" src="assets/img/ios-phone-top.png" alt="..."/>
+            </div>
+            <div class="col-sm-4 flex-column" style="border-radius: 1.25rem">
+                <h2 class="display-4 lh-1 mb-4">{{ site.browse_plants }}</h2>
+                <p class="lead fw-normal text-muted mb-5 mb-lg-0">{{ site.browse_plants_description}} </p>
+            </div>
+            <div class="col-sm-4 flex-column text-center" style="opacity: 50%">
+                <a href="https://www.freeiconspng.com/img/34791" title="Image from freeiconspng.com"><img
+                        src="https://www.freeiconspng.com/uploads/plant-icon-26.png" width="200"
+                        alt="Plant Save Icon Format"/>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-2 bg-light hidden-mobile">
+    <div class="container px-4 px-md-5 my-5 bg-gray-light shadow-lg" style="border-radius: 1.25rem">
+        <div class="row ml-lg-5 gx-4 gx-lg-5 align-items-center">
+            <div class="col-sm-4 text-center " style="opacity: 50%">
+                <a href="https://www.freeiconspng.com/img/34780" title="Image from freeiconspng.com"><img
+                        src="https://www.freeiconspng.com/uploads/agriculture-icon-image-gallery-16.png"
+                        width="200" alt="Agriculture Business Start Farm Farming Idea Plant Startup icon"/></a>
+            </div>
+            <div class="col-sm-4 ">
+                <h2 class="display-4 lh-1 mb-4">{{ site.buy_sell_swap }}</h2>
+                <p class="lead fw-normal text-muted mb-5 mb-lg-0">{{ site.buy_sell_swap_description}} </p>
+            </div>
+            <div class="col-sm-4">
+                <img class="card-img-top" src="assets/img/ios-phone-top.png" alt="..."/>
+            </div>
+
+        </div>
+    </div>
+</section>
+<section class="py-2 bg-light hidden-mobile">
+    <div class="container px-4 px-md-5 my-5 shadow-lg" style="border-radius: 1.25rem">
+        <div class="row ml-lg-5 gx-4 gx-lg-5 align-items-center">
+            <div class="col-sm-4">
+                <img class="card-img " src="assets/img/ios-phone-top.png" alt="..."/>
+            </div>
+            <div class="col-sm-4">
+                <h2 class="display-4 lh-1 mb-4">{{ site.socialize }}</h2>
+                <p class="lead fw-normal text-muted mb-5 mb-lg-0">{{ site.socialize_description}} </p>
+            </div>
+            <div class="col-sm-4 text-center" style="opacity: 40%">
+                <a href="https://www.freeiconspng.com/img/29126" title="Image from freeiconspng.com"><img
+                        src="https://www.freeiconspng.com/uploads/garden-community-icon-12.png" width="200"
+                        alt="garden community icon"/></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- OUR MISSION -->
+<section class="page-section blossm_secondary_color text-white mb-0 " id="about">
+    <div class="container">
+        <!-- About Section Heading-->
+        <div class="text-center">
+            <h2 class="page-section-heading d-inline-block text-white">OUR MISSION</h2>
+        </div>
+        <!-- Icon Divider-->
+        <div class="divider-custom divider-light">
+            <div class="divider-custom-line"></div>
+            <div class="divider-custom-icon"><i class="fas fa-seedling"></i></div>
+            <div class="divider-custom-line"></div>
+        </div>
+        <!-- About Section Content-->
+        <div class="text-center">
+            <div class="page-section">
+                <p class="pre-wrap lead">{{site.mission}}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</section>

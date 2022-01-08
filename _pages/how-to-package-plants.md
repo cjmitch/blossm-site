@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: page-links
 title: "How To Package Plants For Shipping - Blossm"
 link_title: "How To Package Plants For Shipping"
 desc: How to package plants for shipping
 include_in_header: false
 include_in_footer: true
+legal: false
 ---
 
 **Last updated**  

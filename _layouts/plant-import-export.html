@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+{% include plant-import-export-head.html %}
+
+<body class="text-center">
+
+<script>
+    $(document).ready(function () {
+        $('form').submit(false);
+    });
+</script>
+<form class="form-import-export">
+    <label for="inputToken" class="sr-only">Token</label>
+    <input id="inputToken" type="password" class="form-control" placeholder="Token" required="" autofocus=""
+           value="">
+    <br>
+    <button id="export-btn" class="btn btn-lg btn-primary btn-block" onclick="handleExport()">Export</button>
+    <br>
+
+    <input id="file-input" type="file" accept=".csv"/>
+    <button id="import-btn" class="btn btn-lg btn-success btn-block" onclick="handleImport();">
+        Import
+    </button>
+</form>
+<div id="error-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="error-modal-label"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 id="error-modal-label" class="modal-title alert">Error</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="error-modal-content" class="alert alert-block alert-danger">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="success-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="success-modal-label"
+     aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 id="success-modal-label" class="modal-title">Complete</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="success-modal-content" class="alert alert-block alert-success">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="loading-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="loading-modal-label"
+     aria-hidden="true" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 id="loading-modal-label" class="modal-title">Loading</h5>
+            </div>
+            <div class="modal-body">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                         style="width: 100%"
+                         aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+<script src="/assets/js/plant-import-export.js"></script>
+</body>
+</html>

@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: page-links
 title: "How To Ship With PayPal - Blossm"
 link_title: "How To Exchange With PayPal"
 desc: How to ship items with PayPal backed transactions
 include_in_header: false
 include_in_footer: true
+legal: false
 ---
 
 **Last updated**  
