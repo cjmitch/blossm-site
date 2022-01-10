@@ -12,3 +12,37 @@
 .blossm_secondary_color {
     background-color: #079365;
 }
+.header-background-gradient {
+    background: rgb(248,249,250);
+    background: linear-gradient(0deg, rgba(248,249,250,1) 0%, rgba(7,147,101,1) 5%);
+}
+.transition-background {
+    /*background: rgb(248,249,250);*/
+    background: linear-gradient(0deg, rgba(248,249,250,1) 0%, rgba(7,147,101,1) 100%);
+}
+
+.header-background-plant {
+    background-image: url("../assets/img/background/rubber-plant-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.masthead-avatar-iphone {
+    width: 20rem;
+}
+
+.masthead {
+    padding-top: calc(6rem + 50px);
+    padding-bottom:6rem
+}
+
+/*Nav bar*/
+.navbar-brand {
+    padding-top: 0rem;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        height: 4rem;
+    }
+}

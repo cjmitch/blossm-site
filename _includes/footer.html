@@ -4,12 +4,12 @@
             <!-- Footer Location-->
             <div class="col-sm  mb-5 mb-lg-0">
                 <h4 class="mb-4">LOCATION</h4>
-                <p class="pre-wrap lead mb-0"> {{site.town}}
-                {{site.city}}</p>
+                <p class="pre-wrap  mb-0">{{site.town}}
+                 {{site.city}}</p>
             </div>
             <!-- Footer Social Icons-->
             <div class="col-sm mb-5 mb-lg-0">
-                <h4 class="mb-4">AROUND THE WEB</h4><a class="btn btn-outline-light btn-social mx-1"
+                <h4 class="mb-4">FOLLOW US</h4><a class="btn btn-outline-light btn-social mx-1"
                                                        href="https://facebook.com/{{ site.facebook_username }}"><i
                     class="fab fa-fw fa-facebook-f"></i></a><a class="btn btn-outline-light btn-social mx-1"
                                                                href="https://www.instagram.com/{{ site.instagram_username }}"><i
@@ -19,7 +19,7 @@
             </div>
             <!-- Footer Useful Links-->
             <div class="col-sm mb-5 mb-lg-0">
-                <h4 class="mb-4">USEFUL LINKS</h4>
+                <h4 class="mb-4">HELPFUL LINKS</h4>
                 <div class="footerLinks">
                     {% for page in site.pages %}
                     {% if page.include_in_footer == true %}
@@ -31,33 +31,28 @@
                     {% endfor %}
                 </div>
             </div>
+            <div class="col-sm mb-5 mb-lg-0">
+                <h4 class="mb-4">LEGAL</h4>
+                <div class="footerLinks">
+                    {% for page in site.pages %}
+                    {% if page.include_in_footer == true %}
+                    {% if page.legal == true %}
+                    <a href="{{ page.url | relative_url }}" target="_self">{{ page.link_title }}</a>
+                    <p/>
+                    {% endif %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
         </div>
     </div>
-    <!--    <div class="footerLinks">-->
-    <!--        {% for page in site.pages %}-->
-    <!--        {% if page.include_in_footer == true %}-->
-    <!--        <a href="{{ page.url | relative_url }}" target="_self">{{ page.link_title }}</a>-->
-    <!--        {% endif %}-->
-    <!--        {% endfor %}-->
-    <!--    </div>-->
 </footer>
 <!-- Copyright Section-->
 <section class="copyright py-4 text-center text-white">
     <div class="container">
-        <!--        <small class="pre-wrap">Copyright © blossm.garden 2021</small>-->
-        <div class="footerLinks">
-            <span>
-                <small class="pre-wrap">© 2021 blossm.garden, Crafted With</small>
-                <i class="fas fa-heart" style="color: red"></i>
-            </span>
-
-            {% for page in site.pages %}
-            {% if page.include_in_footer == true %}
-            {% if page.legal == true %}
-            <a href="{{ page.url | relative_url }}" target="_self">{{ page.link_title }}</a>
-            {% endif %}
-            {% endif %}
-            {% endfor %}
-        </div>
+        <span>
+            <small class="pre-wrap">© 2021 blossm.garden, Crafted With</small>
+            <i class="fas fa-heart" style="color: red"></i>
+        </span>
     </div>
 </section>
