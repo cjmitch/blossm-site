@@ -21,10 +21,12 @@
     background: linear-gradient(0deg, rgba(248,249,250,1) 0%, rgba(7,147,101,1) 100%);
 }
 
-.header-background-plant {
-    background-image: url("../assets/img/background/rubber-plant-background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+@media (min-width: 768px) {
+    .header-background-plant {
+        background-image: url("../assets/img/background/ponthos-on-side.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
 
 .masthead-avatar-iphone {

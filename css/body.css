@@ -21,13 +21,28 @@ body, h1, h2, h3, h4, h5, h6, li {
 }
 
 .card-background-2 {
-    background-image: url("../assets/img/background/bottom-pots-background.jpg");
-    background-size: contain;
+    background-image: url("../assets/img/background/ficus-left-side-moved.png");
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .card-background-3 {
-    background-image: url("../assets/img/background/monstera-background.jpg");
+    background-image: url("../assets/img/background/monstera-background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.how-it-works-background-1 {
+    background-image: url("../assets/img/background/abstract-background-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.how-it-works-background-2 {
+    background-image: url("../assets/img/background/abstract-background-2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.how-it-works-background-3 {
+    background-image: url("../assets/img/background/abstract-background-3.png");
     background-size: cover;
     background-repeat: no-repeat;
 }
