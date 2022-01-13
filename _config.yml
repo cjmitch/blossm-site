@@ -45,6 +45,14 @@ mission: We want to revolutionize the way you connect to people in the community
   amount of time and effort to create a way to do this. We hope you will fulfill all your
   horticultural desires and make this world a greener place!
 
+# Team Data
+nick_full_name: Nicholas Mitchell
+nick_headshot: assets/img/team/nick-headshot.webp
+brian_full_name: Brian Feretic
+brian_headshot: assets/img/team/brian-headshot.webp
+calvin_full_name: Calvin Mitchell
+calvin_headshot: assets/img/team/calvin-headshot.webp
+
 # Theme Settings
 topbar_color: "#000000"
 topbar_transparency: 0.0
