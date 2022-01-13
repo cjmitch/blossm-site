@@ -23,11 +23,28 @@
 
 @media (min-width: 768px) {
     .header-background-plant {
-        background-image: url("../assets/img/background/ponthos-on-side.png");
+        background-image: url("../assets/img/background/ponthos-on-side.webp");
         background-size: cover;
         background-repeat: no-repeat;
     }
+    .header-text-color {
+        color: #343a40;
+    }
+    .header-divider-color {
+        background-color: #343a40;
+    }
 }
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .header-text-color {
+        color: #ffffff;
+    }
+    .header-divider-color {
+        background-color: #ffffff;
+    }
+}
+
+
 
 .masthead-avatar-iphone {
     width: 20rem;
