@@ -4,17 +4,16 @@
 
 <html lang="en-us">
 
-{% include head-page.html %}
+{% include page-links/head.html %}
 
 <body class="subPageBody">
 <div class="headerBackground subPageHeaderBackground">
     <div class="container subPageContainer">
-        {% include helpful-links-header.html %}
+        {% include page-links/header.html %}
         <article class="page markdown-body">
             {{ content }}
         </article>
     </div>
 </div>
 </body>
-
 </html>

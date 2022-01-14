@@ -1,0 +1,36 @@
+<!--Top Page-->
+<header class="masthead blossm_secondary_color header-background-plant text-center text-white"/>
+<div class="container d-flex my-auto align-items-center flex-row">
+    <!-- Masthead Avatar Image-->
+    <img class="masthead-avatar-iphone hidden-mobile" src="assets/img/ios-screenshots/ios-home-high-res.webp" width="120" alt="">
+    <!-- Masthead Heading-->
+    <div class="container d-flex align-items-center flex-column" style="max-width: 500px">
+
+        <div class="col-sm pt-2">
+            <img class="img shadow-lg" style="border-radius: 1.25rem" width="120" height="120"
+                 src="{{ site.app_icon }}" alt="Blossm"/>
+        </div>
+        <h1 class="masthead-heading header-text-color pt-4">{{site.app_name_short}}</h1>
+
+        <div class="divider-custom hidden-mobile">
+            <div class="divider-custom-line"></div>
+        </div>
+        <div class="divider-custom divider-light hidden-web">
+            <div class="divider-custom-line"></div>
+        </div>
+        <h1 class="masthead-subheading header-text-color">{{site.app_description}}</h1>
+        <div class="row my-3 pl-2 align-items-center">
+            <a class="cols pr-2" href="{{site.appstore_link}}" aria-label="Download on the App Store.">
+                <img class="appStore shadow-lg"
+                     src="/assets/img/appstore.png" width="190" height="64" alt="iOS">
+            </a>
+            <a class="cols px-lg-2 my-1 " href="{{site.playstore_link}}"
+               aria-label="Get it on Google Play.">
+                <img class="playStore shadow-lg"
+                     src="/assets/img/playstore.png" width="220" height="64"
+                     alt="Android">
+            </a>
+        </div>
+    </div>
+</div>
+</header>

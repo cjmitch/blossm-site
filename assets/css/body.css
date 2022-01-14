@@ -15,34 +15,34 @@ body, h1, h2, h3, h4, h5, h6, li {
 }
 
 .card-background-1 {
-    background-image: url("../assets/img/background/side-pots.webp");
+    background-image: url("../img/background/side-pots.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .card-background-2 {
-    background-image: url("../assets/img/background/ficus-left-side-moved.webp");
+    background-image: url("../img/background/ficus-left-side-moved.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .card-background-3 {
-    background-image: url("../assets/img/background/monstera-background.webp");
+    background-image: url("../img/background/monstera-background.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .how-it-works-background-1 {
-    background-image: url("../assets/img/background/abstract-background-1.webp");
+    background-image: url("../img/background/abstract-background-1.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .how-it-works-background-2 {
-    background-image: url("../assets/img/background/abstract-background-2.webp");
+    background-image: url("../img/background/abstract-background-2.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
 .how-it-works-background-3 {
-    background-image: url("../assets/img/background/abstract-background-3.webp");
+    background-image: url("../img/background/abstract-background-3.webp");
     background-size: cover;
     background-repeat: no-repeat;
 }
